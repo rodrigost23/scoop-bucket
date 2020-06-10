@@ -24,6 +24,12 @@
         "github": "https://github.com/FredrikNoren/ungit",
         "regex": "\\/releases\\/tag\\/v([\\d.]+)"
     },
+    "shortcuts": [
+        [
+            "ungit.exe",
+            "Ungit"
+        ]
+    ],
     "autoupdate": {
         "architecture": {
             "64bit": {
