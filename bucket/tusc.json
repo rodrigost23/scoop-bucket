@@ -1,0 +1,32 @@
+{
+    "homepage": "https://github.com/jackhftang/tusc",
+    "version": "0.4.1",
+    "description": "TUS Command line (tusc) is a small static binary for both server and client of tus resumable upload protocol.",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/jackhftang/tusc/blob/master/LICENSE"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/jackhftang/tusc/releases/download/0.4.1/tusc_windows_amd64.exe",
+            "hash": "80c51c30604f726b2cbbf9154a05775c4e4109ad8a20e878034250ef5bb70278",
+            "bin": [
+                [
+                    "tusc_windows_amd64.exe",
+                    "tusc"
+                ]
+            ]
+        }
+    },
+    "checkver": {
+        "github": "https://github.com/jackhftang/tusc",
+        "regex": "\\/releases\\/tag\\/([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/jackhftang/tusc/releases/download/$version/tusc_windows_amd64.exe"
+            }
+        }
+    }
+}
