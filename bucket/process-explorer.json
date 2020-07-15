@@ -1,0 +1,51 @@
+{
+    "homepage": "https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer",
+    "version": "16.32",
+    "description": "Ever wondered which program has a particular file or directory open? Now you can find out. Process Explorer shows you information about which handles and DLLs processes have opened or loaded.",
+    "license": {
+        "identifier": "Proprietary"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://download.sysinternals.com/files/ProcessExplorer.zip",
+            "bin": [
+                [
+                    "procexp64.exe",
+                    "procexp"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "procexp64.exe",
+                    "Process Explorer"
+                ]
+            ],
+            "hash": "d6b555f233ec477fef392290182ff99f2ae3abe0d9a77c2f739bc8afaea51941"
+        },
+        "32bit": {
+            "url": "https://download.sysinternals.com/files/ProcessExplorer.zip",
+            "bin": "procexp.exe",
+            "shortcuts": [
+                [
+                    "procexp.exe",
+                    "Process Explorer"
+                ]
+            ],
+            "hash": "d6b555f233ec477fef392290182ff99f2ae3abe0d9a77c2f739bc8afaea51941"
+        }
+    },
+    "checkver": {
+        "url": "https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer",
+        "regex": "<h1.*?>\\s*Process\\s+Explorer\\s+v([\\d\\.]+)</h1>"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.sysinternals.com/files/ProcessExplorer.zip"
+            },
+            "32bit": {
+                "url": "https://download.sysinternals.com/files/ProcessExplorer.zip"
+            }
+        }
+    }
+}
