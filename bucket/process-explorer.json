@@ -3,7 +3,7 @@
     "version": "16.32",
     "description": "Ever wondered which program has a particular file or directory open? Now you can find out. Process Explorer shows you information about which handles and DLLs processes have opened or loaded.",
     "license": {
-        "identifier": "Proprietary"
+        "identifier": "Freeware"
     },
     "architecture": {
         "64bit": {
@@ -39,13 +39,6 @@
         "regex": "<h1.*?>\\s*Process\\s+Explorer\\s+v([\\d\\.]+)</h1>"
     },
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://download.sysinternals.com/files/ProcessExplorer.zip"
-            },
-            "32bit": {
-                "url": "https://download.sysinternals.com/files/ProcessExplorer.zip"
-            }
-        }
+        "url": "https://download.sysinternals.com/files/ProcessExplorer.zip"
     }
 }

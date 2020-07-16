@@ -1,0 +1,32 @@
+{
+    "homepage": "https://docs.microsoft.com/en-us/sysinternals/downloads/handle",
+    "version": "4.22",
+    "description": "Ever wondered which program has a particular file or directory open? Now you can find out. Handle is a utility that displays information about open handles for any process in the system.",
+    "license": {
+        "identifier": "Freeware"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://download.sysinternals.com/files/Handle.zip",
+            "bin": [
+                [
+                    "handle64.exe",
+                    "handle"
+                ]
+            ],
+            "hash": "1f2e6eda07f0581c1cfac733f34005c9122c4d2a9d5e0b6d99797502a76ad79e"
+        },
+        "32bit": {
+            "url": "https://download.sysinternals.com/files/Handle.zip",
+            "bin": "handle.exe",
+            "hash": "1f2e6eda07f0581c1cfac733f34005c9122c4d2a9d5e0b6d99797502a76ad79e"
+        }
+    },
+    "checkver": {
+        "url": "https://docs.microsoft.com/en-us/sysinternals/downloads/handle",
+        "regex": "<h1.*?>\\s*Handle\\s+v([\\d\\.]+)</h1>"
+    },
+    "autoupdate": {
+        "url": "https://download.sysinternals.com/files/Handle.zip"
+    }
+}
