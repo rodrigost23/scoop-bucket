@@ -1,6 +1,6 @@
 {
     "homepage": "https://github.com/FredrikNoren/ungit",
-    "version": "1.5.9",
+    "version": "1.5.10",
     "description": "The easiest way to use git. On any platform. Anywhere.",
     "license": {
         "identifier": "MIT",
@@ -8,15 +8,15 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/FredrikNoren/ungit/releases/download/v1.5.9/ungit-win32-x64.zip",
+            "url": "https://github.com/FredrikNoren/ungit/releases/download/v1.5.10/ungit-win32-x64.zip",
             "bin": "ungit.exe",
-            "hash": "3bc737b8faa8b8f546ffae5473b49ae1215917530ab3a629398466d6b709a929",
+            "hash": "0972bbe0737f34ec7ae61593359f0ca5e414f73a4b77b3ae867dc44234b58ae3",
             "extract_dir": "ungit-win32-x64"
         },
         "32bit": {
-            "url": "https://github.com/FredrikNoren/ungit/releases/download/v1.5.9/ungit-win32-ia32.zip",
+            "url": "https://github.com/FredrikNoren/ungit/releases/download/v1.5.10/ungit-win32-ia32.zip",
             "bin": "ungit.exe",
-            "hash": "93dee6a3dcce2d3e9c7ff1708d2ab8d011046e4404665bfed8fc1c8600af0a7d",
+            "hash": "5b02ef97453bf341f3c60833df9a11bc6b7daf3f2ce3cd8482d9bdd507972f9f",
             "extract_dir": "ungit-win32-ia32"
         }
     },
