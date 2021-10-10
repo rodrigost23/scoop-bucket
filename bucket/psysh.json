@@ -1,13 +1,13 @@
 {
     "homepage": "https://psysh.org/",
-    "version": "0.10.8",
+    "version": "0.10.9",
     "description": "PsySH is a runtime developer console, interactive debugger and REPL for PHP.",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/bobthecow/psysh/blob/master/LICENSE"
     },
-    "url": "https://github.com/bobthecow/psysh/releases/download/v0.10.8/psysh-v0.10.8.tar.gz",
-    "hash": "ea8a5204a479788e4795a272e00f7826bc587d4b4208d565ca7b662d96d67ce1",
+    "url": "https://github.com/bobthecow/psysh/releases/download/v0.10.9/psysh-v0.10.9.tar.gz",
+    "hash": "32b9da63a807d983f431ac33c38f6c7d56fdca92f5a479afe7dbbfc53d4cde20",
     "depends": "php",
     "##": "Creates file named psysh.ps1 that calls php",
     "pre_install": "echo \"php `\"$dir\\psysh`\" @args\" | out-file \"$dir\\psysh.ps1\"",
