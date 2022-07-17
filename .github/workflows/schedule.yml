@@ -10,8 +10,8 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Excavate
-      uses: shovel-org/GithubActions@main
+      uses: ScoopInstaller/GithubActions@main
       env:
-        GITH_EMAIL: rodrigost23@users.noreply.github.com
+        USER_EMAIL: rodrigost23@users.noreply.github.com
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SKIP_UPDATED: '1'
