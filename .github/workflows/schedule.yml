@@ -1,6 +1,7 @@
 on:
   schedule:
   - cron: '0 */12 * * *'
+  workflow_dispatch:
 name: Excavator
 jobs:
   excavate:
@@ -9,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Excavate
-      uses: Ash258/Scoop-GithubActions@stable
+      uses: shovel-org/GithubActions@main
       env:
         GITH_EMAIL: rodrigost23@users.noreply.github.com
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
