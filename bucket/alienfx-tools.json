@@ -1,12 +1,12 @@
 {
     "homepage": "https://github.com/T-Troll/alienfx-tools",
-    "version": "8.3.0.1",
+    "version": "8.3.0.2",
     "description": "Alienware systems lights, fans, and power control tools and apps",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/T-Troll/alienfx-tools/blob/master/LICENSE"
     },
-    "url": "https://github.com/T-Troll/alienfx-tools/releases/download/8.3.0.1/alienfx-tools.zip",
+    "url": "https://github.com/T-Troll/alienfx-tools/releases/download/8.3.0.2/alienfx-tools.zip",
     "bin": [
         "alienfx-cli.exe",
         "alienfan-cli.exe"
@@ -21,7 +21,7 @@
             "AlienFX Monitor"
         ]
     ],
-    "hash": "e9a6b21817532d6ff6bebcee0deb192f6c528251c62c2d6c3dc53690f08511f3",
+    "hash": "96e2a3eb4ba292ef9a62468ac30560faecea9b6c3881b14926892dee882b29e3",
     "checkver": {
         "github": "https://github.com/T-Troll/alienfx-tools",
         "regex": "\\/releases\\/tag\\/([\\d.a-z]+)"
