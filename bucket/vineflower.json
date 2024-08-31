@@ -8,7 +8,7 @@
     },
     "url": "https://github.com/Vineflower/vineflower/releases/download/1.10.1/vineflower-1.10.1.jar#/vineflower.jar",
     "hash": "b9b208e50793b64657a6b6292067526613f549de7405f9243624b02f4276e409",
-    "pre_install": "\"java -jar `\"$dir\\vineflower.jar`\"\" | out-file -encoding oem \"$dir\\vineflower.ps1\"",
+    "pre_install": "\"java -jar `\"$dir\\vineflower.jar`\" `$args\" | out-file -encoding oem \"$dir\\vineflower.ps1\"",
     "bin": "vineflower.ps1",
     "checkver": {
         "github": "https://github.com/Vineflower/vineflower",
