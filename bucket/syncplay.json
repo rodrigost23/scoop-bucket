@@ -1,14 +1,14 @@
 {
     "homepage": "https://syncplay.pl",
-    "version": "1.7.3",
+    "version": "1.7.4",
     "description": "Free software that synchronises media players so that faraway friends can watch videos together.",
     "license": {
         "identifier": "Apache-2.0",
         "url": "https://github.com/Syncplay/syncplay/blob/master/LICENSE"
     },
-    "url": "https://github.com/Syncplay/syncplay/releases/download/v1.7.3/Syncplay_1.7.3_Portable.zip",
+    "url": "https://github.com/Syncplay/syncplay/releases/download/v1.7.4/Syncplay_1.7.4_Portable.zip",
     "bin": "Syncplay.exe",
-    "hash": "b7efe5601c8c05ce62389f6067de57a221621a945d28eb95ca20bcfa6d5832f5",
+    "hash": "f9bf92e6c173d7f649364e789188306f78938f624972bb6780a20ea5beeeee8c",
     "shortcuts": [
         [
             "Syncplay.exe",
